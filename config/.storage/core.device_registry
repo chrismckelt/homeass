@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "659b22c598d88b4e5332ca71b3b41fd7"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "c23b1524387a42c7b901ba95c66233d5",
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "study",
+        "config_entries": [
+          "d9ebd21e446ed8e9cc35dd20ff2f5a87"
+        ],
+        "configuration_url": "http://easy-skyfandc-1:80",
+        "connections": [
+          [
+            "mac",
+            "c8:c9:a3:98:dd:e6"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "0.2",
+        "id": "b5879e9ad43543d8420f4a6fd7f11863",
+        "identifiers": [],
+        "manufacturer": "jimmy",
+        "model": "easy_skyfandc",
+        "name_by_user": null,
+        "name": "easy-skyfandc-1",
+        "sw_version": "2022.4.0 (May  2 2022, 20:53:32)",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "b980bd8e4e4ee5214c623e795122d412"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "c8:c9:a3:98:dd:c1"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "0.2",
+        "id": "3eda5c35a71f8900eadedc042ebc8c6c",
+        "identifiers": [],
+        "manufacturer": "jimmy",
+        "model": "easy_skyfandc",
+        "name_by_user": null,
+        "name": "easy-skyfandc-2",
+        "sw_version": "2022.4.0 (May  2 2022, 21:05:57)",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

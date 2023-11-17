@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "33bcf979a79efa4ed7b5a7b06acc801e",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "38d3df6c0c2d5554e74c092e00d94149",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "659b22c598d88b4e5332ca71b3b41fd7",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d9ebd21e446ed8e9cc35dd20ff2f5a87",
+        "version": 1,
+        "domain": "esphome",
+        "title": "easy-skyfandc-1",
+        "data": {
+          "host": "easy-skyfandc-1",
+          "port": 6053,
+          "password": "",
+          "noise_psk": ""
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "easy-skyfandc-1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b980bd8e4e4ee5214c623e795122d412",
+        "version": 1,
+        "domain": "esphome",
+        "title": "easy-skyfandc-2",
+        "data": {
+          "host": "easy-skyfandc-2",
+          "port": 6053,
+          "password": "",
+          "noise_psk": ""
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "easy-skyfandc-2",
+        "disabled_by": null
+      }
+    ]
+  }
+}

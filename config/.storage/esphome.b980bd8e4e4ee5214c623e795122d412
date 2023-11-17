@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "esphome.b980bd8e4e4ee5214c623e795122d412",
+  "data": {
+    "device_info": {
+      "uses_password": false,
+      "name": "easy-skyfandc-2",
+      "mac_address": "C8:C9:A3:98:DD:C1",
+      "compilation_time": "May  2 2022, 21:05:57",
+      "model": "d1_mini",
+      "manufacturer": "",
+      "has_deep_sleep": false,
+      "esphome_version": "2022.4.0",
+      "project_name": "jimmy.easy_skyfandc",
+      "project_version": "0.2",
+      "webserver_port": 0,
+      "bluetooth_proxy_version": 0
+    },
+    "services": [],
+    "api_version": {
+      "major": 1,
+      "minor": 6
+    },
+    "fan": [
+      {
+        "object_id": "skyfandc",
+        "key": 2056612548,
+        "name": "SkyFanDC",
+        "unique_id": "easy-skyfandc-2fanskyfandc",
+        "disabled_by_default": false,
+        "icon": "",
+        "entity_category": 0,
+        "supports_oscillation": false,
+        "supports_speed": true,
+        "supports_direction": true,
+        "supported_speed_levels": 6
+      }
+    ],
+    "sensor": [
+      {
+        "object_id": "skyfandc-temp",
+        "key": 3363308103,
+        "name": "SkyFanDC-Temp",
+        "unique_id": "easy-skyfandc-2sensorskyfandc-temp",
+        "disabled_by_default": true,
+        "icon": "",
+        "entity_category": 0,
+        "device_class": "",
+        "unit_of_measurement": "",
+        "accuracy_decimals": 1,
+        "force_update": false,
+        "state_class": 0,
+        "last_reset_type": 0
+      },
+      {
+        "object_id": "skyfandc_tmp117",
+        "key": 2140542599,
+        "name": "SkyFanDC TMP117",
+        "unique_id": "easy-skyfandc-2sensorskyfandc_tmp117",
+        "disabled_by_default": false,
+        "icon": "",
+        "entity_category": 0,
+        "device_class": "temperature",
+        "unit_of_measurement": "°C",
+        "accuracy_decimals": 1,
+        "force_update": false,
+        "state_class": 1,
+        "last_reset_type": 0
+      }
+    ],
+    "text_sensor": []
+  }
+}

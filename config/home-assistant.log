@@ -1,0 +1,5 @@
+2023-10-07 07:58:00.204 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2023-10-07 07:58:00.222 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=164 from 2023-10-07 07:25:42.450243)
+2023-10-07 07:58:06.227 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for easy-skyfandc-1 @ easy-skyfandc-1: Error resolving IP address: [Errno -2] Name does not resolve
+2023-10-07 07:58:06.236 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for easy-skyfandc-2 @ easy-skyfandc-2: Error resolving IP address: [Errno -2] Name does not resolve
+2023-10-07 11:44:39.347 ERROR (MainThread) [frontend.js.latest.202211080] http://mars:8213/config/devices/device/b5879e9ad43543d8420f4a6fd7f11863:0:0 ResizeObserver loop completed with undelivered notifications.
