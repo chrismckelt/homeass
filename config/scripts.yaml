@@ -1,0 +1,31 @@
+script_skyfan1decreasespeed:
+  alias: skyfan1_decreasespeed
+  sequence:
+  - type: toggle
+    device_id: b5879e9ad43543d8420f4a6fd7f11863
+    entity_id: ee8f9b0ec7c76d03fb4237c387fe698a
+    domain: fan
+  - service: fan.decrease_speed
+    metadata: {}
+    data: {}
+    target:
+      device_id: b5879e9ad43543d8420f4a6fd7f11863
+  description: 'descrease speed'
+
+skyfan1_increasespeed:
+  alias: skyfan1_increasespeed
+  sequence:
+  - type: toggle
+    device_id: b5879e9ad43543d8420f4a6fd7f11863
+    entity_id: ee8f9b0ec7c76d03fb4237c387fe698a
+    domain: fan
+  - type: turn_off
+    device_id: b5879e9ad43543d8420f4a6fd7f11863
+    entity_id: ee8f9b0ec7c76d03fb4237c387fe698a
+    domain: fan
+  - service: fan.increase_speed
+    metadata: {}
+    data: {}
+    target:
+      device_id: b5879e9ad43543d8420f4a6fd7f11863
+  description: ''
