@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_chris",
+  "data": {
+    "config": {
+      "title": "St Andrews Way",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "fan.skyfandc_4",
+                "sensor.skyfandc_tmp117_4",
+                "sensor.skyfandc_temp",
+                "sensor.skyfandc_temp_4"
+              ],
+              "title": "Study"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "fan.skyfandc_3",
+                "sensor.skyfandc_tmp117_3",
+                "sensor.skyfandc_temp_2",
+                "sensor.skyfandc_temp_3"
+              ],
+              "title": "Easy-Skyfandc-2"
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "sun.sun"
+                  ]
+                },
+                {
+                  "type": "weather-forecast",
+                  "entity": "weather.forecast_st_andrews_way",
+                  "show_forecast": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

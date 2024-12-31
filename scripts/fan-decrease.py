@@ -1,4 +1,5 @@
 import requests
+import time
 
 # Home Assistant URL and API Token
 home_assistant_url = "http://localhost:8123"
@@ -13,8 +14,12 @@ headers = {
     "Content-Type": "application/json",
 }
 
-# Send the GET request to Home Assistant
-response = requests.get(url, headers=headers)
+for i in range(1, 5):
+    print(f"Iteration {i}: ...")
+    # Send the GET request to Home Assistant
+    response = requests.get(url, headers=headers)
+    # Pause for 1 seconds
+    time.sleep(1)
 
 # Check if the request was successful
 if response.status_code == 200:

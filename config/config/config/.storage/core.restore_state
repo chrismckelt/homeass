@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.admin","state":"unknown","attributes":{"editable":true,"id":"admin","user_id":"521c9cbde7ee46d6b89d89301531f232","device_trackers":[],"friendly_name":"admin"},"last_changed":"2024-03-02T00:58:50.451724+00:00","last_updated":"2024-03-02T00:58:55.366504+00:00","context":{"id":"01HQYAQMG6MSZAYY67M7Q9G90P","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-02T00:58:55.366837+00:00"
+    }
+  ]
+}

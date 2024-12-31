@@ -1,5 +1,25 @@
-2023-10-07 07:58:00.204 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
-2023-10-07 07:58:00.222 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=164 from 2023-10-07 07:25:42.450243)
-2023-10-07 07:58:06.227 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for easy-skyfandc-1 @ easy-skyfandc-1: Error resolving IP address: [Errno -2] Name does not resolve
-2023-10-07 07:58:06.236 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for easy-skyfandc-2 @ easy-skyfandc-2: Error resolving IP address: [Errno -2] Name does not resolve
-2023-10-07 11:44:39.347 ERROR (MainThread) [frontend.js.latest.202211080] http://mars:8213/config/devices/device/b5879e9ad43543d8420f4a6fd7f11863:0:0 ResizeObserver loop completed with undelivered notifications.
+2024-11-10 23:09:28.670 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2024-11-10 23:09:28.835 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=665 from 2024-11-09 22:42:07.213005)
+2024-11-10 23:09:41.204 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for easy-skyfandc-1: Error resolving IP address: [Errno -3] Try again (APIConnectionError)
+2024-11-10 23:09:57.325 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for easy-skyfandc-2: Error connecting to [AddrInfo(family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, proto=6, sockaddr=IPv4Sockaddr(address='192.168.1.10', port=6053))]: [Errno 111] Connect call failed ('192.168.1.10', 6053) (SocketAPIError)
+2024-11-10 23:37:22.860 WARNING (MainThread) [homeassistant.components.esphome.manager] Error getting setting up connection for easy-skyfandc-2: Timeout waiting for DeviceInfoResponse after 10.0s
+2024-11-10 23:37:32.862 ERROR (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: disconnect request failed: Timeout waiting for DisconnectResponse after 10.0s
+2024-11-10 23:37:51.248 WARNING (MainThread) [homeassistant.components.esphome.manager] Error getting setting up connection for easy-skyfandc-2: Timeout waiting for DeviceInfoResponse after 10.0s
+2024-11-10 23:38:01.060 ERROR (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: disconnect request failed: easy-skyfandc-2 @ 192.168.1.10: EOF received
+2024-11-10 23:40:19.388 WARNING (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: Connection error occurred: Ping response not received after 90.0 seconds
+2024-11-10 23:40:41.635 WARNING (MainThread) [homeassistant.components.esphome.manager] Error getting setting up connection for easy-skyfandc-2: Timeout waiting for DeviceInfoResponse after 10.0s
+2024-11-10 23:40:51.636 ERROR (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: disconnect request failed: Timeout waiting for DisconnectResponse after 10.0s
+2024-11-10 23:42:27.003 WARNING (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: Connection error occurred: easy-skyfandc-2 @ 192.168.1.10: EOF received
+2024-11-10 23:46:56.724 WARNING (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: Connection error occurred: Ping response not received after 90.0 seconds
+2024-11-10 23:47:30.877 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for easy-skyfandc-2 @ 192.168.1.10: Timeout waiting for HelloResponse, ConnectResponse after 30.0s (TimeoutAPIError)
+2024-11-10 23:47:30.878 WARNING (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: Connection error occurred: easy-skyfandc-2 @ 192.168.1.10: Connection lost
+2024-11-10 23:47:51.523 WARNING (MainThread) [homeassistant.components.esphome.manager] Error getting setting up connection for easy-skyfandc-2: Timeout waiting for DeviceInfoResponse after 10.0s
+2024-11-10 23:48:01.523 ERROR (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: disconnect request failed: Timeout waiting for DisconnectResponse after 10.0s
+2024-11-10 23:48:39.621 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for easy-skyfandc-2 @ 192.168.1.10: Timeout waiting for HelloResponse, ConnectResponse after 30.0s (TimeoutAPIError)
+2024-11-10 23:48:39.621 WARNING (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: Connection error occurred: easy-skyfandc-2 @ 192.168.1.10: Connection lost
+2024-11-10 23:49:14.784 WARNING (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: Connection error occurred: easy-skyfandc-2 @ 192.168.1.10: Connection lost
+2024-11-10 23:49:38.288 WARNING (MainThread) [homeassistant.components.esphome.manager] Error getting setting up connection for easy-skyfandc-2: Timeout waiting for DeviceInfoResponse after 10.0s
+2024-11-10 23:49:48.288 ERROR (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: disconnect request failed: Timeout waiting for DisconnectResponse after 10.0s
+2024-11-10 23:57:53.826 WARNING (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: Connection error occurred: easy-skyfandc-2 @ 192.168.1.10: EOF received
+2024-11-11 00:17:37.043 WARNING (MainThread) [aioesphomeapi.connection] easy-skyfandc-2 @ 192.168.1.10: Connection error occurred: easy-skyfandc-2 @ 192.168.1.10: EOF received
+2024-11-11 00:18:01.253 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for easy-skyfandc-2 @ 192.168.1.10: Error connecting to [AddrInfo(family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, proto=6, sockaddr=IPv4Sockaddr(address='192.168.1.10', port=6053))]: [Errno 111] Connect call failed ('192.168.1.10', 6053) (SocketAPIError)

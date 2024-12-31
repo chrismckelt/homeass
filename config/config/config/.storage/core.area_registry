@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "name": "Living Room",
+        "id": "living_room",
+        "picture": null,
+        "aliases": [],
+        "icon": null
+      },
+      {
+        "name": "Kitchen",
+        "id": "kitchen",
+        "picture": null,
+        "aliases": [],
+        "icon": null
+      },
+      {
+        "name": "Bedroom",
+        "id": "bedroom",
+        "picture": null,
+        "aliases": [],
+        "icon": null
+      },
+      {
+        "name": "Lachie Bedroom",
+        "id": "lachie_bedroom",
+        "picture": null,
+        "aliases": [],
+        "icon": null
+      },
+      {
+        "name": "Study",
+        "id": "study",
+        "picture": null,
+        "aliases": [],
+        "icon": null
+      }
+    ]
+  }
+}

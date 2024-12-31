@@ -6,7 +6,7 @@ services:
     ports:
       - "8123:8123"
     volumes:
-      - d:/docker/homeassistant/config:/config
+      - c:/dev/homeassistant/config:/config
       - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
     privileged: true
